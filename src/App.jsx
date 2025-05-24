@@ -1,6 +1,7 @@
 /* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg' */
+import College from './26_Array-Nested-Looping';
 import ClockColor from './25_Props-Task';
 import Teams from './25_Reuse-Component';
 import './App.css'
@@ -49,9 +50,11 @@ function App() {
 
   return (
     <>
+      {/* #26 Array Nested Looping with component */}
+      <College />
 
-      {/* <Clock /> */}
-      <ClockColor />
+      <hr />
+      {/* <ClockColor /> */}
       {/* #25 Reuse Component in loop */}
       {/* <Teams /> */}
 

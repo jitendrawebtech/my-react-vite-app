@@ -4,9 +4,12 @@ export function Clock({ bgColor }) {
     const [time, newTime] = useState(0);
 
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             newTime(new Date().toLocaleTimeString());
-        }, 1000)
+        }, 1000);
+
+        return () => clearInterval(interval); //Clear interval on unmount
+
     }, [])
 
     return (
