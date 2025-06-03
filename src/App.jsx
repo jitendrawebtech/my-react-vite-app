@@ -5,6 +5,7 @@ import College from './26_Array-Nested-Looping';
 import ClockColor from './25_Props-Task';
 import Teams from './25_Reuse-Component';
 import './App.css'
+import CounterBtn from './30_Life_Cycle_Method';
 /* import Img1 from './img'
 import List1 from './listing'
 import alertFun from './functions'
@@ -50,6 +51,13 @@ function App() {
 
   return (
     <>
+
+      {/* #30 Use Effect Hook for Life Cycle Methods in React */}
+      <CounterBtn />
+
+      <hr />
+
+
       {/* #26 Array Nested Looping with component */}
       <College />
 
