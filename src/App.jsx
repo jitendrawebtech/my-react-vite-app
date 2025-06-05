@@ -6,6 +6,11 @@ import ClockColor from './25_Props-Task';
 import Teams from './25_Reuse-Component';
 import './App.css'
 import CounterBtn from './30_Life_Cycle_Method';
+import Kids from './40_Pass_Function_in_Component_Props.jsx';
+import UserForm from './38_useRef-Hook.jsx';
+import From from './39_uncontrolled_component.jsx';
+import InputForRef from './40_Forward_Ref.jsx';
+import StateForm from './41_useFormStatus.jsx';
 /* import Img1 from './img'
 import List1 from './listing'
 import alertFun from './functions'
@@ -49,19 +54,50 @@ function App() {
   
     const frndName = ["Sandeep", "Suraj", "Bharat", "Bhual", "Alok"]; */
 
+  // #40 Pass Function in Component as Props
+  /*   function kid(name) {
+      alert(name);
+    };
+  
+    function fatherName() {
+      console.log("Randheer Soni");
+    } */
+  // #40 Pass Function in Component as Props
+
   return (
     <>
+      {/* #41 useFormStatus Hook in React js */}
+      <StateForm />
+
+      {/* #40 Forward Ref */}
+      {/* <InputForRef />
+      <hr /> */}
+
+      {/* #39 uncontrolled component */}
+      {/* <From />
+      <hr /> */}
+
+      {/* #38 useRef Hook */}
+      {/* <UserForm />
+
+      <hr /> */}
+
+      {/* #40 Pass Function in Component as Props */}
+      {/* Here onclick passed as a props not as a event or fun, dont be confused */}
+      {/* <Kids kid={kid} name={"Aarav"} onClick={fatherName} />
+      <Kids kid={kid} name={"Priyansh"} onClick={fatherName} />
+      <Kids kid={kid} name={"Ganesh"} onClick={fatherName} />
+      <hr /> */}
 
       {/* #30 Use Effect Hook for Life Cycle Methods in React */}
-      <CounterBtn />
+      {/* <CounterBtn />
 
-      <hr />
-
+      <hr /> */}
 
       {/* #26 Array Nested Looping with component */}
-      <College />
+      {/* <College />
 
-      <hr />
+      <hr /> */}
       {/* <ClockColor /> */}
       {/* #25 Reuse Component in loop */}
       {/* <Teams /> */}
