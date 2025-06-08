@@ -1,17 +1,22 @@
+import FormTrans from './42_useTransition_Hook'
+import Guests from './43_Pure_component'
+import Members from './44_Derived_State'
+import Players from './45_Lifting_State_Up'
+import './App.css'
+
 /* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg' */
+import viteLogo from '/vite.svg'
 import College from './26_Array-Nested-Looping';
 import ClockColor from './25_Props-Task';
 import Teams from './25_Reuse-Component';
-import './App.css'
 import CounterBtn from './30_Life_Cycle_Method';
 import Kids from './40_Pass_Function_in_Component_Props.jsx';
 import UserForm from './38_useRef-Hook.jsx';
 import From from './39_uncontrolled_component.jsx';
 import InputForRef from './40_Forward_Ref.jsx';
 import StateForm from './41_useFormStatus.jsx';
-/* import Img1 from './img'
+import Img1 from './img'
 import List1 from './listing'
 import alertFun from './functions'
 import Myfruit, { Counter } from './stateHooks'
@@ -66,8 +71,25 @@ function App() {
 
   return (
     <>
+      {/* #45 Lifting State Up in React js */}
+      <Players />
+
+      {/* #44 Derived State */}
+      {/* <Members />
+      <hr /> */}
+
+      {/* #43 Pure components */}
+      {/* <Guests />
+      <hr /> */}
+
+
+      {/* #42 useTransition Hook */}
+      {/* <FormTrans />
+      <hr /> */}
+
       {/* #41 useFormStatus Hook in React js */}
-      <StateForm />
+      {/* <StateForm />
+      <hr /> */}
 
       {/* #40 Forward Ref */}
       {/* <InputForRef />
