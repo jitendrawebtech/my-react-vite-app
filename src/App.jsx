@@ -1,3 +1,7 @@
+import Routing from './2_React_Router'
+// import './App.css'
+
+/*
 import FormTrans from './42_useTransition_Hook'
 import Guests from './43_Pure_component'
 import Members from './44_Derived_State'
@@ -7,10 +11,8 @@ import Academy from './47_Updating_Array'
 import UserData from './48_useActionState'
 import SubjectApi from './52_Context_api'
 import Subject from './52_Context_api'
-import './App.css'
 import ToggleData from './Toggle'
-
-/* import { useState } from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import College from './26_Array-Nested-Looping';
@@ -77,8 +79,12 @@ function App() {
 
   return (
     <>
+      {/* #2 React Router */}
+      <Routing />
+
+
       {/* #52 Context API Reactjs */}
-      <SubjectApi />
+      {/* <SubjectApi /> */}
 
       {/* #53 - Custom Hooks */}
       {/* <ToggleData /> */}
